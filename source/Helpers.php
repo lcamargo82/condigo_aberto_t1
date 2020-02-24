@@ -22,6 +22,20 @@ function asset(string $path): string
     return SITE["root"] . "/views/assets/{$path}";
 }
 
+/**
+ * @param string $imageUrl
+ * @return string
+ */
+function routeImage(string $imageUrl): string
+{
+    return "https://via.placeholder.com/1200x628/0984e3/FFFFFF?text={$imageUrl}";
+}
+
+/**
+ * @param string|null $type
+ * @param string|null $message
+ * @return string|null
+ */
 function flash(string $type = null, string $message = null): ?string
 {
     if($type && $message) {

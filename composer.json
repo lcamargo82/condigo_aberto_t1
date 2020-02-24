@@ -1,6 +1,6 @@
 {
-  "name": "lcamargo82/codigoaberto",
-  "description": "Código Aberto - PHP Tips",
+  "name": "lcamargo82/codigo_aberto_t1",
+  "description": "Código Aberto - Temporada 01 - UpInside",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "source\\": "source"
+      "Source\\": "source"
     },
     "files": [
       "source/Config.php",
